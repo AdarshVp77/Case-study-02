@@ -80,10 +80,10 @@ function displayTodoList(todos) {
         "input:checked:not([disabled])"
       );
       if (checkedOnes.length >= 5 && checkedOnes.length === 5) {
-        alert("🎉Congratulations!! You have checked 5 items.");
+        alert("🎉Congratulations!! 5 Tasks have been Successfully Completed .");
       }
       if (checkedOnes.length > 5 && checkedOnes.length === 6) {
-        alert("⚠️Oops!! You have already checked 5 items!");
+        alert("⚠️Oops!! You have already completed 5 tasks!");
         checkbox.checked = false;
       }
     });
